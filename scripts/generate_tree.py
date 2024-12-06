@@ -22,5 +22,5 @@ def save_tree_to_markdown(directory, output_file):
 
 if __name__ == "__main__":
     project_directory = "."
-    output_file = "project_tree.md"
+    output_file = os.path.join("..", "boltium_fleet_manager", "data", "project_tree.md")
     save_tree_to_markdown(project_directory, output_file)
