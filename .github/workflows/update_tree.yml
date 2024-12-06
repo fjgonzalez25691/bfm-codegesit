@@ -1,0 +1,58 @@
+name: Update Project Tree
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-tree:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11
+
+    - name: Generate project tree
+      run: |
+        mkdir -p artifacts
+        python boltium_fleet_manager/scripts/generate_tree.py
+        mv project_tree.md artifacts/project_tree.md
+
+    - name: Upload project tree to Confluence
+      env:
+        CONFLUENCE_API_TOKEN: ${{ secrets.CONFLUENCE_API_TOKEN }}
+      run: |
+        # Define variables
+        SPACE_KEY="C2FM"
+        PAGE_ID="27000906"
+        SITE_URL="https://fjgonzalez25691-1726727264848.atlassian.net/wiki"
+        USER_EMAIL="fjgonzalez25691@gmail.com"
+        FILE_PATH="artifacts/project_tree.md"
+
+        # Convert Markdown to HTML
+        CONTENT=$(cat $FILE_PATH | pandoc -f markdown -t html)
+
+        # Update Confluence page via API
+        curl -X PUT \
+          -H "Authorization: Basic $(echo -n $USER_EMAIL:$CONFLUENCE_API_TOKEN | base64)" \
+          -H "Content-Type: application/json" \
+          -d "{
+                \"id\": \"$PAGE_ID\",
+                \"type\": \"page\",
+                \"title\": \"Project Tree\",
+                \"space\": {\"key\": \"$SPACE_KEY\"},
+                \"body\": {
+                  \"storage\": {
+                    \"value\": \"$CONTENT\",
+                    \"representation\": \"storage\"
+                  }
+                },
+                \"version\": {\"number\": 1}
+              }" \
+          $SITE_URL/rest/api/content/$PAGE_ID
