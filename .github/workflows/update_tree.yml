@@ -18,6 +18,11 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
       - name: Generate project tree
         run: |
           # Navigate to the scripts directory
@@ -34,6 +39,7 @@ jobs:
 
       - name: Verify output (Debug)
         run: ls -R data/artifacts
+        
       - name: Debug Secrets
         run: |
           echo "Token length: ${#CONFLUENCE_API_TOKEN}"      
