@@ -1,3 +1,18 @@
+# ==============================================================
+# Script: driver_gen_json.py
+# Description:
+#   This script generates random driver data for the Boltium Fleet
+#   Manager project. The generated data includes names, addresses,
+#   and other non-sensitive information.
+#
+# Key Notes:
+# - All data is fictitious and randomly generated.
+# - No real or confidential data is used in any form.
+# - The script adheres to strict ethical and legal standards.
+# ==============================================================
+
+
+
 # Import necessary libraries
 import random
 import pandas as pd

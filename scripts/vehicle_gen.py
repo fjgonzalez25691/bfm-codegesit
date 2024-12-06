@@ -1,3 +1,21 @@
+# ==============================================================
+# Script: vehicle_gen.py
+# Description:
+#   This script generates random vehicle data for the Boltium Fleet
+#   Manager project. The generated data is based on predefined
+#   specifications for the fictional Zinca 1000 model.
+#
+# Key Notes:
+# - All vehicle data is fictitious and derived from publicly available
+#   information, such as manufacturer specifications.
+# - No real or confidential data is used in any form.
+# - The script adheres to strict ethical and legal standards to ensure
+#   transparency and compliance with data handling guidelines.
+#
+# Usage:
+# - This script creates a JSON file containing the data for the fleet vehicles.
+# ==============================================================
+
 import random
 import json
 from datetime import datetime

@@ -8,7 +8,5 @@ codegeist_env/
 desktop.ini
 
 # Ignore auxliar documentation
-Documentation/
+docs/
 
-# Others
-drivers.csv
