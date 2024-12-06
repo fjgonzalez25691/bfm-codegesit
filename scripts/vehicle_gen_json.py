@@ -16,6 +16,7 @@
 # - This script creates a JSON file containing the data for the fleet vehicles.
 # ==============================================================
 
+import os
 import random
 import json
 from datetime import datetime
@@ -51,7 +52,7 @@ for i in range(1, num_vehicles + 1):
     vehicles_data.append(vehicle)
 
 # Save the data as a JSON file
-json_path = "vehicles.json"  # Save in the current directory
+json_path = os.path.join("..", "boltium_fleet_manager", "data", "vehicles.json")  
 with open(json_path, "w") as json_file:
     json.dump(vehicles_data, json_file, indent=4)
 

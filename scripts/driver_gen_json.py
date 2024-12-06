@@ -14,6 +14,7 @@
 
 
 # Import necessary libraries
+import os
 import random
 import pandas as pd
 import json
@@ -94,8 +95,8 @@ data = {
 # Convert the data to a list of dictionaries for JSON
 drivers_json = pd.DataFrame(data).to_dict(orient="records")
 
-# Save the JSON file in the current directory
-json_path = r"D:\cursos_de_informatica\Atlassian\enlaces_codegeist\drivers.json"  # File path updated for Windows
+# Save the data as JSON file
+json_path = os.path.join("..", "boltium_fleet_manager", "data", "drivers.json") 
 with open(json_path, "w") as json_file:
     json.dump(drivers_json, json_file, indent=4)
 

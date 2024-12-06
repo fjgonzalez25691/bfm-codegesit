@@ -2,6 +2,14 @@
 
 Boltium Fleet Manager (BFM) is an innovative fleet management solution designed for VTC (Vehicle for Hire) operators. Built using Atlassian Forge, it integrates seamlessly with Jira and Confluence to simplify and optimize the management of drivers, vehicles, and operational workflows.
 
+
+## ⚖️ Disclaimer: Ethics and Data Transparency
+
+- **Random Data**: All data used in this project is randomly generated or based on publicly available information. No real or confidential data from any organization has been used.
+- **Scripts for Verification**: Data generation scripts are provided in the `scripts/` directory to ensure full transparency in how the data is created.
+- **Public Sources**: If public data sources are used, they are clearly cited in the documentation.
+- **Commitment to Ethics**: This project adheres to strict ethical standards, avoiding any use of proprietary or sensitive information, and respects the legal and ethical guidelines of all parties involved.
+
 ---
 ## 🌍 Context: A Fictitious Fleet and Platform
 
@@ -51,17 +59,14 @@ enlaces_codegeist/
 │   └── zinca1000.json      # Vehicle model specifications
 ├── scripts/                # Python scripts
 │   ├── driver_gen_json.py  # Driver data generation script
-│   ├── driver_gen.py       # Alternative driver script (CSV)
 │   └── vehicle_gen.py      # Vehicle data generation script
 ├── .gitignore              # Ignored files and folders (e.g., virtual env, docs)
 ├── LICENSE                 # License file
 ├── README.md               # Project overview (this file)
 └── doc_conf.md             # Additional documentation (not tracked in git)
+```
+### Changes in Data Format
+To maintain simplicity and ensure compatibility with Atlassian Forge, we decided to standardize all data in JSON format. Scripts and sample JSON files are available in the `data/` and `scripts/` directories.
 
 
-## ⚖️ Disclaimer: Ethics and Data Transparency
 
-- **Random Data**: All data used in this project is randomly generated or based on publicly available information. No real or confidential data from any organization has been used.
-- **Scripts for Verification**: Data generation scripts are provided in the `scripts/` directory to ensure full transparency in how the data is created.
-- **Public Sources**: If public data sources are used, they are clearly cited in the documentation.
-- **Commitment to Ethics**: This project adheres to strict ethical standards, avoiding any use of proprietary or sensitive information, and respects the legal and ethical guidelines of all parties involved.
