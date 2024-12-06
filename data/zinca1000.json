@@ -1,0 +1,43 @@
+{
+    "Model": "Zinca 1000",
+    "Specifications": {
+      "Battery_Capacity": "69 kWh",
+      "Range": "478 km",
+      "Charging_Time": {
+        "AC": "7 hours",
+        "DC": "35 minutes"
+      },
+      "Motor_Type": "Single Motor",
+      "Power": "170 kW",
+      "Torque": "330 Nm",
+      "Top_Speed": "160 km/h",
+      "Acceleration_0_100": "7.4 seconds",
+      "Seats": 5,
+      "Drive_Type": "Front-Wheel Drive (FWD)",
+      "Weight": "1983 kg",
+      "Dimensions": {
+        "Length": "4606 mm",
+        "Width": "1859 mm",
+        "Height": "1479 mm",
+        "Wheelbase": "2735 mm"
+      },
+      "Tire_Type": "All-Season Tires",
+      "Color_Options": ["Black", "White", "Grey"],
+      "Safety_Features": [
+        "Lane Keeping Assist",
+        "Automatic Emergency Braking",
+        "Adaptive Cruise Control",
+        "Blind Spot Monitoring"
+      ],
+      "Infotainment_System": {
+        "OS": "Android Automotive",
+        "Screen_Size": "11 inches",
+        "Speakers": "8"
+      },
+      "Warranty": {
+        "Battery": "8 years or 160,000 km",
+        "General": "5 years or 100,000 km"
+      }
+    }
+  }
+  

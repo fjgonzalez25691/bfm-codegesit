@@ -1,0 +1,14 @@
+# Ignore Python virtual environment
+codegeist_env/
+
+# Ignore  system files
+*.pyc
+ __pycache__/
+.DS_Store
+desktop.ini
+
+# Ignore auxliar documentation
+Documentation/
+
+# Others
+drivers.csv

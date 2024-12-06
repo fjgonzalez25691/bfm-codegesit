@@ -1,0 +1,722 @@
+[
+    {
+        "Vehicle_ID": "V001",
+        "Model": "Zinca 1000",
+        "Plate_Number": "3830-NXY",
+        "VIN": "TT315C4ASRONGQ35H",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V002",
+        "Model": "Zinca 1000",
+        "Plate_Number": "2724-LDE",
+        "VIN": "K1MO2EEE9TMIKFI0R",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V003",
+        "Model": "Zinca 1000",
+        "Plate_Number": "2860-RHJ",
+        "VIN": "8N3ZF2LUI1RHR4OL0",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V004",
+        "Model": "Zinca 1000",
+        "Plate_Number": "2378-KLG",
+        "VIN": "QOMMWB2HP5LS59QKE",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V005",
+        "Model": "Zinca 1000",
+        "Plate_Number": "7755-ZTW",
+        "VIN": "W60X3S2PQGX1G6E5H",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V006",
+        "Model": "Zinca 1000",
+        "Plate_Number": "2961-NCF",
+        "VIN": "ZKYUS633ZRQDMLM6X",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V007",
+        "Model": "Zinca 1000",
+        "Plate_Number": "0774-UZZ",
+        "VIN": "W43D70Z280CAY7QKC",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V008",
+        "Model": "Zinca 1000",
+        "Plate_Number": "0018-GSL",
+        "VIN": "ULNJHK4CDRMSWXR8K",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V009",
+        "Model": "Zinca 1000",
+        "Plate_Number": "8709-ABU",
+        "VIN": "TLSZFEBT80041JCUR",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V010",
+        "Model": "Zinca 1000",
+        "Plate_Number": "6681-GMS",
+        "VIN": "UZCD1S3GQOVXPNBFU",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V011",
+        "Model": "Zinca 1000",
+        "Plate_Number": "2268-MUI",
+        "VIN": "44BW2K0Y7W3JQ52RS",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V012",
+        "Model": "Zinca 1000",
+        "Plate_Number": "4287-TVO",
+        "VIN": "N7XXO9GNTIKJ1TJ2L",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V013",
+        "Model": "Zinca 1000",
+        "Plate_Number": "8266-FVA",
+        "VIN": "X05SLQRA09V1741TX",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V014",
+        "Model": "Zinca 1000",
+        "Plate_Number": "3027-ZLL",
+        "VIN": "E8NF9WGLPYPOX24XS",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V015",
+        "Model": "Zinca 1000",
+        "Plate_Number": "1258-FZV",
+        "VIN": "HM7LJM3PNVY7XSOJB",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V016",
+        "Model": "Zinca 1000",
+        "Plate_Number": "1733-KGQ",
+        "VIN": "DEP7CAJAJJL6J7TQ0",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V017",
+        "Model": "Zinca 1000",
+        "Plate_Number": "4560-GVQ",
+        "VIN": "Q45OPOZHXCLZSKCXO",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V018",
+        "Model": "Zinca 1000",
+        "Plate_Number": "3797-RQT",
+        "VIN": "VSYCBFF80BW016K5E",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V019",
+        "Model": "Zinca 1000",
+        "Plate_Number": "9860-PEP",
+        "VIN": "PCK8L2H23ZT4FRG4F",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V020",
+        "Model": "Zinca 1000",
+        "Plate_Number": "9222-CNV",
+        "VIN": "2WMAOLMI0JJ78XJ3U",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V021",
+        "Model": "Zinca 1000",
+        "Plate_Number": "9500-SRS",
+        "VIN": "BVN8W1S2K1QPIRDN3",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V022",
+        "Model": "Zinca 1000",
+        "Plate_Number": "3428-TSL",
+        "VIN": "CY8PR303HFBQZVXGC",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V023",
+        "Model": "Zinca 1000",
+        "Plate_Number": "4993-XDO",
+        "VIN": "YQFUV5JOHG3O1EY1I",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V024",
+        "Model": "Zinca 1000",
+        "Plate_Number": "4470-SOJ",
+        "VIN": "EAS85TE62VEAPEDI9",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V025",
+        "Model": "Zinca 1000",
+        "Plate_Number": "5070-HAH",
+        "VIN": "YHVGA2S22HLCSBXT1",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V026",
+        "Model": "Zinca 1000",
+        "Plate_Number": "1184-LKE",
+        "VIN": "MPR6AT8CHFWRDB96F",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V027",
+        "Model": "Zinca 1000",
+        "Plate_Number": "4140-OJC",
+        "VIN": "9JOBVNJK1VTSND7IL",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V028",
+        "Model": "Zinca 1000",
+        "Plate_Number": "4733-QGT",
+        "VIN": "TX8Y9JANSUZ4WHCL0",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V029",
+        "Model": "Zinca 1000",
+        "Plate_Number": "1992-AHR",
+        "VIN": "3QOK1GAU066BUW6Y2",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V030",
+        "Model": "Zinca 1000",
+        "Plate_Number": "4751-HJN",
+        "VIN": "HFXHAPETS6R2K1IC8",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V031",
+        "Model": "Zinca 1000",
+        "Plate_Number": "2588-ZXS",
+        "VIN": "2OJUBX8C27FIIHZBV",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V032",
+        "Model": "Zinca 1000",
+        "Plate_Number": "7834-GZM",
+        "VIN": "OX4I9SB6021ICJL6Z",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V033",
+        "Model": "Zinca 1000",
+        "Plate_Number": "6281-VCP",
+        "VIN": "VNKQT8XIR0NEUC365",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V034",
+        "Model": "Zinca 1000",
+        "Plate_Number": "1211-WAK",
+        "VIN": "1VQAWRCWP5JJDNO6G",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V035",
+        "Model": "Zinca 1000",
+        "Plate_Number": "9985-REP",
+        "VIN": "90WCTJK9RF81215DX",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V036",
+        "Model": "Zinca 1000",
+        "Plate_Number": "3221-KXB",
+        "VIN": "W49TLO1WSACL52OVH",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V037",
+        "Model": "Zinca 1000",
+        "Plate_Number": "2008-JIW",
+        "VIN": "4T3DE1JQL102XG0WJ",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V038",
+        "Model": "Zinca 1000",
+        "Plate_Number": "5582-WEJ",
+        "VIN": "B19XLTQWBJNBF4J7C",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V039",
+        "Model": "Zinca 1000",
+        "Plate_Number": "0239-NUA",
+        "VIN": "XRZEWCQJFLP29TW2T",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V040",
+        "Model": "Zinca 1000",
+        "Plate_Number": "6831-KXG",
+        "VIN": "OKY3UTHVE1W7WXA1B",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V041",
+        "Model": "Zinca 1000",
+        "Plate_Number": "1798-SRL",
+        "VIN": "8ZKHTGZBGCZRBIUUZ",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V042",
+        "Model": "Zinca 1000",
+        "Plate_Number": "4930-QPC",
+        "VIN": "IYQ8YBM1HCJJ3A6Q6",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V043",
+        "Model": "Zinca 1000",
+        "Plate_Number": "4445-UWA",
+        "VIN": "J6HS2FO7A6X6QOM0I",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V044",
+        "Model": "Zinca 1000",
+        "Plate_Number": "8508-VFU",
+        "VIN": "E05SHWVCXJW8IOM2I",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V045",
+        "Model": "Zinca 1000",
+        "Plate_Number": "9634-ZZY",
+        "VIN": "YOWLZ45C16HCVE7YE",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V046",
+        "Model": "Zinca 1000",
+        "Plate_Number": "5350-WON",
+        "VIN": "XKFE9LNYJSZHNFM9V",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V047",
+        "Model": "Zinca 1000",
+        "Plate_Number": "7238-YSH",
+        "VIN": "K6HP6A4QLNP43WJYE",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V048",
+        "Model": "Zinca 1000",
+        "Plate_Number": "7644-GPL",
+        "VIN": "G5WMKYKWXYDK8N69V",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V049",
+        "Model": "Zinca 1000",
+        "Plate_Number": "1330-VZJ",
+        "VIN": "FKNGYNSNX19VMAYDB",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V050",
+        "Model": "Zinca 1000",
+        "Plate_Number": "0465-UDB",
+        "VIN": "59DU64731D4WYS0OW",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V051",
+        "Model": "Zinca 1000",
+        "Plate_Number": "7086-BTG",
+        "VIN": "N4ZAYINON5XICLW49",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V052",
+        "Model": "Zinca 1000",
+        "Plate_Number": "1650-WPI",
+        "VIN": "JVY6LLKXCEAX6GP30",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V053",
+        "Model": "Zinca 1000",
+        "Plate_Number": "7909-PKV",
+        "VIN": "XUMQJJJ233L6YJSAM",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V054",
+        "Model": "Zinca 1000",
+        "Plate_Number": "2740-DYJ",
+        "VIN": "OQQ3OBKGUPOIWPJ63",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V055",
+        "Model": "Zinca 1000",
+        "Plate_Number": "0367-QLV",
+        "VIN": "6GBAMPVP2S3CU2FT6",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V056",
+        "Model": "Zinca 1000",
+        "Plate_Number": "0794-ZTU",
+        "VIN": "DG0NHMM8DFHPH1XG7",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V057",
+        "Model": "Zinca 1000",
+        "Plate_Number": "0024-BMM",
+        "VIN": "DCCKLNSLNGKQVU8TO",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V058",
+        "Model": "Zinca 1000",
+        "Plate_Number": "8424-KSH",
+        "VIN": "GM8QYDRS7A972PBBW",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V059",
+        "Model": "Zinca 1000",
+        "Plate_Number": "3744-EUH",
+        "VIN": "975B84HUQSTVLO8Y0",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V060",
+        "Model": "Zinca 1000",
+        "Plate_Number": "9549-DVY",
+        "VIN": "1ZK2RPWZLT6TQNT1C",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V061",
+        "Model": "Zinca 1000",
+        "Plate_Number": "3342-OVD",
+        "VIN": "UYJGRRYHBFD471JEZ",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V062",
+        "Model": "Zinca 1000",
+        "Plate_Number": "6413-XVI",
+        "VIN": "PJ3VMTCV4DL28UAED",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V063",
+        "Model": "Zinca 1000",
+        "Plate_Number": "0492-JBN",
+        "VIN": "2OOCH64S0J1P5X7DI",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V064",
+        "Model": "Zinca 1000",
+        "Plate_Number": "9609-IVW",
+        "VIN": "UZN4OEKYEROPXPW4I",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V065",
+        "Model": "Zinca 1000",
+        "Plate_Number": "4444-PNH",
+        "VIN": "EBREPON0RQ0TBKU5Q",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V066",
+        "Model": "Zinca 1000",
+        "Plate_Number": "3010-WZP",
+        "VIN": "TY99KCRD9ZGYL7ILC",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V067",
+        "Model": "Zinca 1000",
+        "Plate_Number": "8268-VWD",
+        "VIN": "D6MRETHHRC11N7J7G",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V068",
+        "Model": "Zinca 1000",
+        "Plate_Number": "0234-SLF",
+        "VIN": "6NUN55QUZ3RA2KKO9",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V069",
+        "Model": "Zinca 1000",
+        "Plate_Number": "1428-SZG",
+        "VIN": "8EQR9A3V3KDQS711O",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V070",
+        "Model": "Zinca 1000",
+        "Plate_Number": "4631-OEP",
+        "VIN": "BJKUKDK844WIR5PUF",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V071",
+        "Model": "Zinca 1000",
+        "Plate_Number": "1303-SQE",
+        "VIN": "BKX0FCTDJ2KREI7V1",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V072",
+        "Model": "Zinca 1000",
+        "Plate_Number": "5475-OCP",
+        "VIN": "X31EF1CLYO5ET7XG6",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V073",
+        "Model": "Zinca 1000",
+        "Plate_Number": "1590-OAX",
+        "VIN": "TA1Z7M9DD3LC85A06",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V074",
+        "Model": "Zinca 1000",
+        "Plate_Number": "8992-INW",
+        "VIN": "XVK4SWE5YAKQ6VQWV",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V075",
+        "Model": "Zinca 1000",
+        "Plate_Number": "8923-CTJ",
+        "VIN": "B1EP0CNSM11DHO4ZR",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V076",
+        "Model": "Zinca 1000",
+        "Plate_Number": "6766-XMO",
+        "VIN": "D5VI3I46Q2WLF57SU",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V077",
+        "Model": "Zinca 1000",
+        "Plate_Number": "6888-EPF",
+        "VIN": "R09E5QXN9LMUH6BKJ",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V078",
+        "Model": "Zinca 1000",
+        "Plate_Number": "5733-OYP",
+        "VIN": "AF8YO5D1T9QOT9XIY",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V079",
+        "Model": "Zinca 1000",
+        "Plate_Number": "1321-PJE",
+        "VIN": "YUFZ0WPWMZCV4UJVX",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V080",
+        "Model": "Zinca 1000",
+        "Plate_Number": "9875-OQS",
+        "VIN": "912G1MDH3F54VQHXJ",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V081",
+        "Model": "Zinca 1000",
+        "Plate_Number": "1145-ISY",
+        "VIN": "YMPY9LH0BGYZMV62H",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V082",
+        "Model": "Zinca 1000",
+        "Plate_Number": "3111-FKT",
+        "VIN": "P5H76FSB7W7IROTMM",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V083",
+        "Model": "Zinca 1000",
+        "Plate_Number": "3601-LTB",
+        "VIN": "VZ0VVGHLEFQLV3K0U",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V084",
+        "Model": "Zinca 1000",
+        "Plate_Number": "9720-WND",
+        "VIN": "234WDHCQJ93NQMYKJ",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V085",
+        "Model": "Zinca 1000",
+        "Plate_Number": "3854-RMM",
+        "VIN": "TL22MEM9CIC3TCR82",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V086",
+        "Model": "Zinca 1000",
+        "Plate_Number": "9916-OWK",
+        "VIN": "LEWT5AJXK47CBM30L",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V087",
+        "Model": "Zinca 1000",
+        "Plate_Number": "2179-KZP",
+        "VIN": "CA7HT4XY9K8H9DVBS",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V088",
+        "Model": "Zinca 1000",
+        "Plate_Number": "7447-QPQ",
+        "VIN": "P98DJY6KIA8T0YRET",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V089",
+        "Model": "Zinca 1000",
+        "Plate_Number": "5146-ASW",
+        "VIN": "V7MDSGR2ZSOSEDQX7",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    },
+    {
+        "Vehicle_ID": "V090",
+        "Model": "Zinca 1000",
+        "Plate_Number": "8186-VZL",
+        "VIN": "5CIZYUMST0ZSRPK7P",
+        "Purchase_Date": "2025-01-01",
+        "Color": "Negro"
+    }
+]
