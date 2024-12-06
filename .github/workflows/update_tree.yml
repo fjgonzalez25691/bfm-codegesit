@@ -24,6 +24,10 @@ jobs:
         python boltium_fleet_manager/scripts/generate_tree.py
         mv project_tree.md artifacts/project_tree.md
 
+    - name: Debug Secrets
+      run: |
+        echo "Token length: ${#CONFLUENCE_API_TOKEN}"      
+
     - name: Upload project tree to Confluence
       env:
         CONFLUENCE_API_TOKEN: ${{ secrets.CONFLUENCE_API_TOKEN }}
