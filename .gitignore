@@ -7,8 +7,7 @@ codegeist_env/
 .DS_Store
 desktop.ini
 
-# Ignore auxliar documentation
-docs/Codegeist_Resources.md
-docs/Enlaces_Forge_Dev_Assistant.md
+# Ignore documentation folder
+docs/
 
 
