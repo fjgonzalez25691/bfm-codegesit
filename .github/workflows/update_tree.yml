@@ -18,10 +18,14 @@ jobs:
       with:
         python-version: 3.11
 
+    - name: List directory contents
+      run: ls -R
+      
+
     - name: Generate project tree
       run: |
         mkdir -p artifacts
-        python boltium_fleet_manager/scripts/generate_tree.py
+        python scripts/generate_tree.py
         mv project_tree.md artifacts/project_tree.md
 
     - name: Debug Secrets
