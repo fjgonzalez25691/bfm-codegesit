@@ -27,11 +27,11 @@ jobs:
       run:
         if ! command -v pandoc &> /dev/null; then
           echo "Pandoc not found. Installing..."
-          sudo apt-get update
-          sudo apt-get install -y pandoc
+          sudo apt-get update && sudo apt-get install -y pandoc
         else
-        echo "Pandoc is already installed. Skipping installation."
+          echo "Pandoc is already installed. Skipping installation."
         fi
+        
     # Step 4: Convert Markdown to HTML
     - name: Convert Markdown to HTML
       run: |
