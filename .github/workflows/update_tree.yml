@@ -10,6 +10,16 @@ jobs:
   update-project-tree:
     runs-on: ubuntu-latest
     steps:
+      - name: Install prerequisites
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y software-properties-common
+
+      - name: Install Pandoc
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y pandoc
+
       # Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -46,6 +56,11 @@ jobs:
       - name: check directories before upload
         run:
           ls -R
+
+      # Checking Token Lenght
+      - name: Debug Token Length
+        run:
+          echo "Token lenght ${#CONFLUENCE_API_TOKEN}"
 
       # Upload HTML content to Confluence
       - name: Upload project tree to Confluence

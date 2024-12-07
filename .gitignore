@@ -9,5 +9,6 @@ desktop.ini
 
 # Ignore documentation folder
 docs/
-
+.vscode/
+bin/
 
