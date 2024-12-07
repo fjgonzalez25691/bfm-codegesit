@@ -77,12 +77,12 @@ jobs:
       - name: Debug before Upload
         run: |
           echo "SPACE_KEY: $SPACE_KEY"
-          echo "PAGE_ID: $PAGE_ID"
-          echo "SITE_URL: $SITE_URL"
-          echo "USER_EMAIL: $USER_EMAIL"
-          echo "CONFLUENCE_API_TOKEN: $(echo -n $CONFLUENCE_API_TOKEN | wc -c) characters"
-          echo "Checking HTML content in FILE_PATH:"
-          cat $FILE_PATH || echo "HTML file not found!"
+            echo "PAGE_ID: $PAGE_ID"
+            echo "SITE_URL: $SITE_URL"
+            echo "USER_EMAIL: $USER_EMAIL"
+            echo "CONFLUENCE_API_TOKEN: $(echo -n $CONFLUENCE_API_TOKEN | wc -c) characters"
+            echo "Checking HTML content in FILE_PATH:"
+            cat $FILE_PATH || echo "HTML file not found!"
 
       # Upload HTML content to Confluence
       - name: Upload project tree to Confluence
