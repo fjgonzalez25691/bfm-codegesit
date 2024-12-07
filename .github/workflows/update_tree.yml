@@ -6,73 +6,49 @@ on:
       - main
 
 jobs:
-  generate-tree:
+  update-project-tree:
     runs-on: ubuntu-latest
-
     steps:
+      # Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Set up Python for generating project tree
       - name: Set up Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: 3.11
 
-      - name: Install Pandoc
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc
-
+      # Generate project tree in Markdown format
       - name: Generate project tree
         run: |
-          # Navigate to the scripts directory
+          mkdir -p artifacts
           python scripts/generate_tree.py
-          # Ensure artifacts directory exists
-          mkdir -p data/artifacts
-          # Move the generated markdown file to artifacts
-          mv data/project_tree.md data/artifacts/project_tree.md
+          mv data/project_tree.md artifacts/project_tree.md
 
+      # Convert Markdown to HTML
       - name: Convert Markdown to HTML
         run: |
-          # Convert the markdown to HTML using pandoc
-          pandoc data/artifacts/project_tree.md -o data/artifacts/project_tree.html
+          pandoc -f markdown -t html artifacts/project_tree.md -o artifacts/project_tree.html
 
-      - name: Verify output (Debug)
-        run: ls -R data/artifacts
-        
-      - name: Debug Secrets
-        run: |
-          echo "Token length: ${#CONFLUENCE_API_TOKEN}"      
-
+      # Upload HTML content to Confluence
       - name: Upload project tree to Confluence
         env:
           CONFLUENCE_API_TOKEN: ${{ secrets.CONFLUENCE_API_TOKEN }}
         run: |
           # Define variables
-          SPACE_KEY="C2FM"
-          PAGE_ID="27000906"
-          SITE_URL="https://fjgonzalez25691-1726727264848.atlassian.net/wiki"
-          USER_EMAIL="fjgonzalez25691@gmail.com"
-          FILE_PATH="artifacts/project_tree.md"
+          SPACE_KEY="NEW_SPACE_KEY" # Cambia esto por el nuevo Space Key
+          PAGE_ID="NEW_PAGE_ID"     # Cambia esto por el nuevo Page ID
+          SITE_URL="https://new-site.atlassian.net/wiki" # Cambia esto por tu nuevo site
+          USER_EMAIL="your-email@gmail.com" # Ajusta si el email ha cambiado
+          FILE_PATH="artifacts/project_tree.html"
 
-          # Convert Markdown to HTML
-          CONTENT=$(cat $FILE_PATH | pandoc -f markdown -t html)
+          # Read HTML content
+          CONTENT=$(cat $FILE_PATH)
 
-          # Update Confluence page via API
+          # Upload to Confluence using API
           curl -X PUT \
             -H "Authorization: Basic $(echo -n $USER_EMAIL:$CONFLUENCE_API_TOKEN | base64)" \
             -H "Content-Type: application/json" \
-            -d "{
-                  \"id\": \"$PAGE_ID\",
-                  \"type\": \"page\",
-                  \"title\": \"Project Tree\",
-                  \"space\": {\"key\": \"$SPACE_KEY\"},
-                  \"body\": {
-                    \"storage\": {
-                      \"value\": \"$CONTENT\",
-                      \"representation\": \"storage\"
-                    }
-                  },
-                  \"version\": {\"number\": 1}
-                }" \
-            $SITE_URL/rest/api/content/$PAGE_ID
+            -d "{\"version\":{\"number\":2},\"title\":\"Project Tree\",\"type\":\"page\",\"body\":{\"storage\":{\"value\":\"$CONTENT\",\"representation\":\"storage\"}}}" \
+            "$SITE_URL/rest/api/content/$PAGE_ID"
