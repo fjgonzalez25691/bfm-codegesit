@@ -36,6 +36,17 @@ jobs:
         run: |
           pandoc -f markdown -t html artifacts/project_tree.md -o artifacts/project_tree.html
 
+      - name: Debug generated files
+        run: |
+          echo "Checking artifacts directory..."
+          ls -R artifacts || echo "Artifacts directory not found!"
+          cat artifacts/project_tree.md || echo "Markdown file not found!"
+          cat artifacts/project_tree.html || echo "HTML file not found!"
+
+      - name: check directories before upload
+        run:
+          ls -R
+
       # Upload HTML content to Confluence
       - name: Upload project tree to Confluence
         env:
