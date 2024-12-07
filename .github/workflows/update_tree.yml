@@ -42,10 +42,10 @@ jobs:
           CONFLUENCE_API_TOKEN: ${{ secrets.CONFLUENCE_API_TOKEN }}
         run: |
           # Define variables
-          SPACE_KEY="NEW_SPACE_KEY" # Cambia esto por el nuevo Space Key
-          PAGE_ID="NEW_PAGE_ID"     # Cambia esto por el nuevo Page ID
-          SITE_URL="https://new-site.atlassian.net/wiki" # Cambia esto por tu nuevo site
-          USER_EMAIL="your-email@gmail.com" # Ajusta si el email ha cambiado
+          SPACE_KEY="C2BFM" # Cambia esto por el nuevo Space Key
+          PAGE_ID="22184038"     # Cambia esto por el nuevo Page ID
+          SITE_URL="https://fjgonzalez25691.atlassian.net/wiki" # Cambia esto por tu nuevo site
+          USER_EMAIL="fjgonzalez25691@gmail.com" # Ajusta si el email ha cambiado
           FILE_PATH="artifacts/project_tree.html"
 
           # Read HTML content
