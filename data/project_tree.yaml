@@ -1,0 +1,55 @@
+Boltium_fleet_manager:
+  .github:
+    content:
+      workflows:
+        content:
+          update_tree.yml:
+            description: No description available.
+            type: file
+        type: directory
+    type: directory
+  LICENSE:
+    description: No description available.
+    type: file
+  README.md:
+    description: No description available.
+    type: file
+  data:
+    content:
+      drivers.json:
+        description: No description available.
+        type: file
+      project_tree.json:
+        description: No description available.
+        type: file
+      project_tree.md:
+        description: No description available.
+        type: file
+      project_tree.yaml:
+        description: No description available.
+        type: file
+      vehicles.json:
+        description: No description available.
+        type: file
+      zinca1000.json:
+        description: No description available.
+        type: file
+    type: directory
+  requirements.txt:
+    description: No description available.
+    type: file
+  scripts:
+    content:
+      driver_gen_json.py:
+        description: Script for random driver generation
+        type: file
+      generate_tree.py:
+        description: Generates a tree-structured file system in JSON and YML format
+        type: file
+      generate_tree2.py:
+        description: No description available.
+        type: file
+      vehicle_gen_json.py:
+        description: Randomly generates vehicles script
+        type: file
+    type: directory

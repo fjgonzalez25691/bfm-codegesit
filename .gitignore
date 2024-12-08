@@ -10,4 +10,10 @@ desktop.ini
 # Ignore documentation folder
 docs/
 
+# Ignore GitHub files and other folders for help
+.git/
+!.github/
+bin/
 
+# Ignore secrets files and user varibles
+.secrets

@@ -1,3 +1,4 @@
+# Randomly generates vehicles script
 # ==============================================================
 # Script: vehicle_gen.py
 # Description:

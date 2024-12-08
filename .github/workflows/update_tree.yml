@@ -1,67 +1,32 @@
-name: Upload directory tree
+name: Generate Project Tree
 
 on:
   push:
     branches:
       - dev
-  workflow_dispatch:
-
 
 jobs:
-  update-project-tree:
+  generate-tree:
     runs-on: ubuntu-latest
 
     steps:
-    # Step 1: Checkout repository
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Check out the repository
+        uses: actions/checkout@v3
 
-    # Step 3: Generate project tree in Markdown
-    - name: Generate project tree
-      run: |
-        mkdir -p artifacts
-        python scripts/generate_tree.py
-        mv data/project_tree.md artifacts/project_tree.md
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
 
-    - name: Install Pandoc
-      run:
-        if ! command -v pandoc &> /dev/null; then
-          echo "Pandoc not found. Installing..."
-          sudo apt-get update && sudo apt-get install -y pandoc
-        else
-          echo "Pandoc is already installed. Skipping installation."
-        fi
-        
-    # Step 4: Convert Markdown to HTML
-    - name: Convert Markdown to HTML
-      run: |
-        pandoc -f markdown -t html artifacts/project_tree.md -o artifacts/project_tree.html
+      - name: Install dependencies
+        run: |
+          pip install pyyaml
 
-    # Step 5: Upload HTML content to Confluence
-    - name: Upload project tree to Confluence
-      run: |
-        # Read HTML content
-        FILE_PATH="artifacts/project_tree.html"
-        CONTENT=$(cat $FILE_PATH | jq -R -s '.')      
-        
-        # Mostrar la longitud del contenido para depuración
-        echo "Content Length: ${#CONTENT}"
-        echo "${{ vars.SITE_URL}}/wiki/api/v2/pages/22184038"
+      - name: Generate Tree Files (JSON and YAML)
+        run: python scripts/generate_tree.py
 
-        # Upload to Confluence using API
-        curl --request PUT \
-          --url "https://fjgonzalez25691.atlassian.net//wiki/api/v2/pages/22184038" \
-          --user "fjgonzalez25691@gmail.com:${{ secrets.CONFLUENCE2_API_TOKEN }}" \
-          --header 'Content-Type: application/json' \
-          --data-raw "{
-            \"version\": { \"number\": 2 },
-            \"title\": \"Project Tree\",
-            \"body\": {
-              \"storage\": {
-                \"value\": $CONTENT,
-                \"representation\": \"storage\"
-              }
-            }
-        }"
-
-          
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: project-tree
+          path: data/project_tree.*

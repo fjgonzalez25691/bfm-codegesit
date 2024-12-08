@@ -1,0 +1,80 @@
+{
+    "Boltium_fleet_manager": {
+        "LICENSE": {
+            "type": "file",
+            "description": "No description available."
+        },
+        "README.md": {
+            "type": "file",
+            "description": "No description available."
+        },
+        "requirements.txt": {
+            "type": "file",
+            "description": "No description available."
+        },
+        ".github": {
+            "type": "directory",
+            "content": {
+                "workflows": {
+                    "type": "directory",
+                    "content": {
+                        "update_tree.yml": {
+                            "type": "file",
+                            "description": "No description available."
+                        }
+                    }
+                }
+            }
+        },
+        "data": {
+            "type": "directory",
+            "content": {
+                "drivers.json": {
+                    "type": "file",
+                    "description": "No description available."
+                },
+                "project_tree.json": {
+                    "type": "file",
+                    "description": "No description available."
+                },
+                "project_tree.md": {
+                    "type": "file",
+                    "description": "No description available."
+                },
+                "project_tree.yaml": {
+                    "type": "file",
+                    "description": "No description available."
+                },
+                "vehicles.json": {
+                    "type": "file",
+                    "description": "No description available."
+                },
+                "zinca1000.json": {
+                    "type": "file",
+                    "description": "No description available."
+                }
+            }
+        },
+        "scripts": {
+            "type": "directory",
+            "content": {
+                "driver_gen_json.py": {
+                    "type": "file",
+                    "description": "Script for random driver generation"
+                },
+                "generate_tree.py": {
+                    "type": "file",
+                    "description": "Generates a tree-structured file system in JSON and YML format"
+                },
+                "generate_tree2.py": {
+                    "type": "file",
+                    "description": "No description available."
+                },
+                "vehicle_gen_json.py": {
+                    "type": "file",
+                    "description": "Randomly generates vehicles script"
+                }
+            }
+        }
+    }
+}
