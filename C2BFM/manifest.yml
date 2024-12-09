@@ -1,0 +1,39 @@
+app:
+  id: ari:cloud:ecosystem::app/0fb12d24-f9f2-45ad-9fd2-cbde7699bdd5
+  runtime: 
+    name: "nodejs18.x"
+
+modules:
+  jira:
+    function:
+      - key: "create-jira-task"
+        handler: "src/jira.js"
+  confluence:
+    macro:
+      - key: "project-tree"
+        function: "main"
+        title: "Project Tree"
+        description: "Displays the file structure of Boltium Fleet Manager"
+        layout: "default"
+        outputType: "iframe"
+      - key: "custom-report"
+        function: "generateReport"
+        title: "Custom Report"
+        description: "Generates a custom report for the fleet"
+        layout: "default"
+        outputType: "inline"
+
+permissions:
+  scopes:
+    - 'read:confluence-content'
+    - 'write:confluence-content'
+    - 'read:jira-work'
+    - 'write:jira-work'
+
+function:
+  - key: "main"
+    handler: "src/index.js"
+  - key: "generateReport"
+    handler: "src/confluence.js"
+  - key: "create-jira-task"
+    handler: "src/jira.js"
